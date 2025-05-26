@@ -9,7 +9,7 @@ from functools import partial
 from pathlib import Path
 from typing import Dict, List, Sequence, Union
 
-import bitsandbytes as bnb
+# import bitsandbytes as bnb
 import peft
 import safetensors.torch as st
 import torch

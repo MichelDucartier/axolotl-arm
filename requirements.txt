@@ -16,7 +16,7 @@ peft==0.15.2
 transformers==4.51.3
 tokenizers>=0.21.1
 accelerate==1.6.0
-datasets==3.5.1
+datasets
 deepspeed>=0.15.4
 trl==0.17.0
 hf_xet==1.1.0
@@ -28,7 +28,7 @@ sentencepiece
 gradio==5.23.3
 
 modal==0.70.5
-pydantic==2.10.6
+pydantic
 addict
 fire
 PyYAML>=6.0
@@ -42,8 +42,8 @@ numpy>=1.24.4,<=2.0.1
 # qlora things
 evaluate==0.4.1
 scipy
-scikit-learn==1.4.2
-nvidia-ml-py==12.560.30
+scikit-learn
+nvidia-ml-py
 art
 tensorboard
 python-dotenv==1.0.1

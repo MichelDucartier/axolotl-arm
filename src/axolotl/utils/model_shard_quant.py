@@ -9,7 +9,7 @@ from typing import List, Optional, Type, Union
 import safetensors
 import torch
 from accelerate import init_empty_weights
-from bitsandbytes.nn import Linear4bit, Params4bit
+# from bitsandbytes.nn import Linear4bit, Params4bit
 from fastcore.parallel import parallel
 from torch import Tensor, nn
 from tqdm import tqdm

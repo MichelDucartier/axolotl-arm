@@ -11,12 +11,12 @@ from functools import cached_property
 from typing import Any, Dict, Optional, Tuple
 
 import addict
-import bitsandbytes as bnb
+# import bitsandbytes as bnb
 import torch
 import transformers
 import transformers.modeling_utils
 from accelerate import init_empty_weights
-from bitsandbytes.nn import Params4bit
+# from bitsandbytes.nn import Params4bit
 from peft import (
     LoftQConfig,
     PeftConfig,
